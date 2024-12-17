@@ -1,3 +1,8 @@
+"use client";
+
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 import Image from "next/image";
 
 export default function Home() {
@@ -96,6 +101,15 @@ export default function Home() {
           Go to nextjs.org →
         </a>
       </footer>
+      <div className="flex flex-col gap-2 w-96">
+        <Label htmlFor="email">Email</Label>
+        <div className="flex gap-2">
+          <Input type="email" id="email" placeholder="Email" />
+          <Button type="submit" onClick={() => console.log("Submit")}>
+            Submit
+          </Button>
+        </div>
+      </div>
     </div>
   );
 }
