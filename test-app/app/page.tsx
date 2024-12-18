@@ -21,7 +21,7 @@ export default function Home() {
             .
           </li>
           <li>
-            Save and test see your test chanasdasdasdsges
+            Save and tedasdasdst see your test chanasdasdasdsges
             asdasdiasdasdasnstantly.
           </li>
         </ol>
